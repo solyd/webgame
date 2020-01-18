@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+	<title>Canvas bitch</title>
+</head>
+<body onload="init();">
+	<canvas id="canvas" width="500" height="500"></canvas>
+	<script src="js/main.js"></script>
+	<style type="text/css">
+		html, body {
+			/* get rid of default spacing on the edges */
+			margin: 0;
+			padding: 0;
+
+			/* get rid of that 2px window border in Internet Explorer 6 */
+			border: 0;
+
+			/* fill the height of the browser */
+			height: 100%;
+
+			/* no more scroll bar */
+			overflow: hidden;
+		}
+		canvas {
+			border: 1px solid black;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+	</style>
+</body>
+</html>
